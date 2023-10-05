@@ -23,7 +23,7 @@ function Profile() {
         }}
       />
       <Typography variant="h4" gutterBottom color="#3f51b5">
-        Øyvind Loftheim
+        Ferrari
       </Typography>
     </Stack>
   );
