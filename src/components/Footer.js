@@ -7,7 +7,7 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="footer-content">
-        <p>&copy; 2023 Ditt Firma Navn. Alle rettigheter reservert.</p>
+        <p>&copy; 2023 Øyvind. Alle rettigheter reservert.</p>
       </div>
     </footer>
   );
