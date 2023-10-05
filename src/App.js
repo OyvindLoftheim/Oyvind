@@ -10,6 +10,6 @@ export default function App() {
       <Profile />
       <Description />
       <ContactForm />
+      <footer />
     </Stack>
   );
-}
