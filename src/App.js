@@ -13,11 +13,10 @@ export default function App() {
     <Stack maxWidth="sm" direction="column" spacing={2} margin="auto" p={2}>
       <Profile />
       <Description />
+      <SizeCheckboxes />
       <Sjekkboks />
       <SomeComponent />
-      <SizeCheckboxes />
       <FloatingActionButtonExtendedSize />
-      
       <ContactForm />
     </Stack>
   );
