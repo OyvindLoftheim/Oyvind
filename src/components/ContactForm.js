@@ -42,7 +42,7 @@ function ContactForm() {
 
       if (data.success) {
         setSnackbarMessage(
-          "Din melding har blitt sendt! Takk for at du kontaktet oss."
+          "Takk for din melding! Vi kontakter deg på epost."
         );
         setSnackbarType("success");
         setFormData({ email: "", message: "" });
