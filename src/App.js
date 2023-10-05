@@ -6,6 +6,7 @@ import ContactForm from "./components/ContactForm";
 import SomeComponent from "./components/SomeComponent";
 import FloatingActionButtonExtendedSize from "./components/Floating";
 import Sjekkboks from "./components/Sjekkboks";
+import SizeCheckboxes from "./components/SizeCheckboxes";
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
       <Description />
       <Sjekkboks />
       <SomeComponent />
+      <SizeCheckboxes />
       <FloatingActionButtonExtendedSize />
       
       <ContactForm />
