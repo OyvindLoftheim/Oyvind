@@ -18,17 +18,7 @@ export default function SizeCheckboxes() {
         defaultChecked={isChecked} // Oppdater sjekkstatus basert på tilstanden
         size="small"
         onChange={handleCheckboxChange} // Kall funksjonen når sjekkstatus endres
-      />
-      <Checkbox
-        {...label}
-        defaultChecked={isChecked} // Oppdater sjekkstatus basert på tilstanden
-        onChange={handleCheckboxChange} // Kall funksjonen når sjekkstatus endres
-      />
-      <Checkbox
-        {...label}
-        defaultChecked={isChecked} // Oppdater sjekkstatus basert på tilstanden
-        sx={{ '& .MuiSvgIcon-root': { fontSize: 28 } }}
-        onChange={handleCheckboxChange} // Kall funksjonen når sjekkstatus endres
+      
       />
       {/* Vis en tekst basert på sjekkstatus */}
       {isChecked ? <p>Sjekkboksen er krysset av!</p> : <p>Sjekkboksen er ikke krysset av.</p>}
