@@ -1,0 +1,16 @@
+/* footer.css */
+
+.footer {
+    background-color: #333; /* Bakgrunnsfarge for footer */
+    color: #fff; /* Tekstfarge */
+    padding: 20px 0; /* Padding for topp og bunn */
+    text-align: center; /* Sentrer tekst */
+  }
+  
+  .footer-content {
+    max-width: 960px; /* Maks bredde for innholdet i footer */
+    margin: 0 auto; /* Sentrer innholdet horisontalt */
+  }
+  
+  /* Legg til ytterligere CSS-stiler etter behov for å tilpasse footeren etter dine preferanser */
+  
